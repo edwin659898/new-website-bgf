@@ -366,7 +366,12 @@ header a{
     padding-right: 30%;
     box-sizing: border-box;
     color: #d4d4d4;
-    /* text-shadow: 0 5px 10px #0004; */
+    text-shadow: 0 5px 10px #0004;
+}
+
+.carousel .list .item .content .des{
+font-size: 20px;
+color: hsl(0, 0%, 81%);
 }
 .carousel .list .item .author{
     font-weight: bold;
@@ -650,7 +655,7 @@ header a{
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: #4b1010;
     white-space: nowrap;
     transition: 0.3s;
