@@ -366,7 +366,7 @@ header a{
     padding-right: 30%;
     box-sizing: border-box;
     color: #d4d4d4;
-    text-shadow: 0 5px 10px #0004;
+    /* text-shadow: 0 5px 10px #0004; */
 }
 .carousel .list .item .author{
     font-weight: bold;
@@ -433,7 +433,7 @@ header a{
     font-weight: 500;
 }
 .thumbnail .item .content .description{
-    font-weight: 300;
+    font-weight: 500;
 }
 /* arrows */
 .arrows{
@@ -550,7 +550,7 @@ header a{
     z-index: 1000;
     width: 0%;
     height: 3px;
-    background-color: #425c47;
+    background-color: hsl(110, 94%, 50%);
     left: 0;
     top: 0;
 }
@@ -602,7 +602,7 @@ header a{
 .carousel.prev .list .item:nth-child(2) .content .des,
 .carousel.prev .list .item:nth-child(2) .content .buttons
 {
-    animation: contentOut 1.5s linear 1 forwards!important;
+    animation: contentOut 1.0s linear 1 forwards!important;
 }
 
 @keyframes contentOut{
