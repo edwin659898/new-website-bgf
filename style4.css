@@ -373,7 +373,7 @@ header a{
 
 .carousel .list .item .content .des{
 font-size: 25px;
-color: hsl(0, 0%, 0%);
+color: hsl(0, 16%, 89%);
 }
 .carousel .list .item .author{
     font-weight: bold;
@@ -533,7 +533,23 @@ color: hsl(0, 0%, 0%);
 }
 .carousel.prev .list .item img{
     z-index: 100;
+    
 }
+/* =====added==== */
+
+.carousel .list .item::after{
+  content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(
+        to top, #000 1%, transparent
+    );  
+}
+
+
 @keyframes showThumbnail{
     from{
         width: 0;
