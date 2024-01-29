@@ -688,7 +688,7 @@
   position: relative;
    
   /* height: 5;
-} */ */
+} */ 
 
 
 .youtubeframe {
@@ -764,7 +764,7 @@
 }
 
 .service-details .read-more a:hover {
-  color: #68A4C4;
+  color: #539144;
 }
 
 .service-details .card:hover img {
@@ -772,11 +772,11 @@
 }
 
 .service-details .card:hover .card-body {
-  border-color: #68A4C4;
+  border-color: #325c28;
 }
 
 .service-details .card:hover .card-body .card-title a {
-  color: #68A4C4;
+  color: #000000;
 }
 
 
@@ -1725,4 +1725,36 @@
   justify-content: center;
   align-items: center;
   gap: 5rem;
+}
+
+/* =======maps======= */
+
+.photo1{
+  /* background-color: #19a80b; */
+  width: 23.33%;
+  float: right;
+  height: 350px;
+  padding-left: 0%;
+  position: relative;
+
+  
+  /* margin-left: -10px; */
+  overflow: hidden;
+  z-index: 9; 
+  border-radius: 1;
+}
+.photo2{
+  /* background-color: #445f41; */
+  width: 23.33%;
+  float: left;
+  height: 350px;
+  padding-left: 1%;
+
+}
+.photo3{
+  /* background-image: url(./../img/MapOfKitui.png); */
+  width: 53.33%;
+  /* margin: 0 auto; */
+  padding-left: 40%;
+  height: 350px;
 }

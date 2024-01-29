@@ -403,9 +403,9 @@ color: hsl(0, 16%, 89%);
     font-weight: 500;
 }
 .carousel .list .item .buttons button:nth-child(2){
-    background-color: transparent;
+    background-color: #fff;
     border: 1px solid #fff;
-    color: #eee;
+    color: #000;
 }
 /* thumbail */
 .thumbnail{
