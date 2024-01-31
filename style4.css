@@ -370,11 +370,17 @@ header a{
 
 .carousel .list .item .content .des{
 font-size: 25px;
-color: hsl(0, 0%, 0%);
+color: #f7ac20;
+
+
+font-size: 25px;
+font-weight: 700;
+/* color: hsl(0, 0%, 0%); */
 }
 .carousel .list .item .author{
     font-weight: bold;
     letter-spacing: 1px;
+    color: #09ff00;
 }
 .carousel .list .item .title,
 .carousel .list .item .topic{
