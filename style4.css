@@ -370,7 +370,8 @@ header a{
 
 .carousel .list .item .content .des{
 font-size: 25px;
-color: #f7ac20;
+/* color: #f7ac20; */
+color: yellow;
 
 
 font-size: 25px;
